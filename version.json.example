@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "release_date": "2025-01-01",
+  "download_url_installer": "https://mintreu.com/downloads/bg-remover/MintreuBgRemover_v1.0.0_Setup.exe",
+  "download_url_portable": "https://mintreu.com/downloads/bg-remover/MintreuBgRemover_v1.0.0_Portable.zip",
+  "changelog": "## Mintreu BG Remover v1.0.0\n\n### Initial Production Release\n\n**New Features:**\n- AI-powered background removal using RMBG v1.4\n- Batch processing with multi-threading\n- Drag & drop interface\n- Dark mode UI\n- Image preview with zoom\n- 100% offline capable\n\n**System:**\n- System health monitoring\n- Auto-update capability\n- Comprehensive logging\n- Model auto-download\n\n**Distribution:**\n- Portable ZIP version\n- Windows installer\n- Single EXE option\n\nFor full details, visit: https://mintreu.com/bg-remover/changelog",
+  "critical": false,
+  "min_version": "0.0.0"
+}

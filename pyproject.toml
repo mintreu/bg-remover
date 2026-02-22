@@ -1,0 +1,42 @@
+[project]
+name = "mintreu-bg-remover"
+version = "1.0.0"
+description = "Mintreu BG Remover Tool - Enterprise-Grade 100% Offline AI Background Removal"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Krishanu Bhattacharya", email = "contact@mintreu.com"}
+]
+keywords = ["background-removal", "ai", "image-processing", "onnx", "offline", "portable"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Multimedia :: Graphics",
+]
+
+dependencies = [
+    "onnxruntime>=1.19.0",
+    "numpy>=1.24.0,<2.0.0",
+    "pillow>=10.0.0",
+    "opencv-python-headless>=4.8.0",
+    "PySide6>=6.6.0",
+    "requests>=2.31.0",
+    "tqdm>=4.66.0",
+]
+
+[project.optional-dependencies]
+build = [
+    "pyinstaller>=6.0.0",
+]
+
+[project.urls]
+Homepage = "https://mintreu.com"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
